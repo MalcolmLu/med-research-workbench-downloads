@@ -14,13 +14,13 @@
 
 ### 下载与安装
 
-**[下载 v0.12.2 公开预览版](https://github.com/MalcolmLu/med-research-workbench-downloads/releases/tag/v0.12.2)**。安装包面向 Apple 芯片 Mac（arm64），构建目标为 macOS 14.0 及以上。本次本机实测系统为 macOS 27.2.1。
+**[下载 v0.12.3 公开预览版](https://github.com/MalcolmLu/med-research-workbench-downloads/releases/tag/v0.12.3)**。安装包面向 Apple 芯片 Mac（arm64），构建目标为 macOS 14.0 及以上。本次本机实测系统为 macOS 27.2.1。
 
-1. 从版本页面下载 `EvidenceWorkbench-0.12.2-17.zip` 和 `SHA256SUMS.txt`。
+1. 从版本页面下载 `EvidenceWorkbench-0.12.3-18.zip` 和 `SHA256SUMS.txt`。
 2. 在两个文件所在目录运行 `shasum -a 256 -c SHA256SUMS.txt`，确认校验结果为 `OK`。
 3. 解压后将「循证手记.app」拖到「应用程序」。已有课题可先在应用中备份，再替换旧版。
 
-> 0.12.2 使用本机签名，Apple 公证待完成。带下载隔离标记的副本在本机 Gatekeeper 检查中被拒绝，首次打开取决于系统和设备管理策略。校验通过后，可参阅 [Apple 的 Mac 应用打开说明](https://support.apple.com/zh-cn/102445) 了解系统提供的选项。
+> 0.12.3 使用本机签名，Apple 公证待完成。带下载隔离标记的副本在本机 Gatekeeper 检查中被拒绝，首次打开取决于系统和设备管理策略。校验通过后，可参阅 [Apple 的 Mac 应用打开说明](https://support.apple.com/zh-cn/102445) 了解系统提供的选项。
 
 在「系统 AI 设置」连接自己的服务账号，或按需配置本机模型。模型权重按需下载。使用问题可在 [Issues](https://github.com/MalcolmLu/med-research-workbench-downloads/issues) 反馈，并附应用版本、macOS 版本和可复现步骤。
 
@@ -36,12 +36,12 @@ Evidence Workbench is a macOS app for medical research. Start a project with a r
 
 ### Download and install
 
-**[Download the v0.12.2 public preview](https://github.com/MalcolmLu/med-research-workbench-downloads/releases/tag/v0.12.2)** for Apple silicon Macs (arm64). The build targets macOS 14.0 or later and was tested locally on macOS 27.2.1.
+**[Download the v0.12.3 public preview](https://github.com/MalcolmLu/med-research-workbench-downloads/releases/tag/v0.12.3)** for Apple silicon Macs (arm64). The build targets macOS 14.0 or later and was tested locally on macOS 27.2.1.
 
-1. Download `EvidenceWorkbench-0.12.2-17.zip` and `SHA256SUMS.txt` from the release page.
+1. Download `EvidenceWorkbench-0.12.3-18.zip` and `SHA256SUMS.txt` from the release page.
 2. In the folder containing both files, run `shasum -a 256 -c SHA256SUMS.txt` and look for `OK`.
 3. Unzip the archive and drag the app into Applications. Back up any existing projects in the app before replacing an earlier version.
 
-> Version 0.12.2 uses an ad-hoc signature and is pending Apple notarization. The download-quarantined copy was rejected by Gatekeeper in local testing. First launch depends on macOS and device management policy. After verifying the download, see [Apple's guidance on opening Mac apps](https://support.apple.com/en-us/102445) for the options your Mac offers.
+> Version 0.12.3 uses an ad-hoc signature and is pending Apple notarization. The download-quarantined copy was rejected by Gatekeeper in local testing. First launch depends on macOS and device management policy. After verifying the download, see [Apple's guidance on opening Mac apps](https://support.apple.com/en-us/102445) for the options your Mac offers.
 
 Connect your own AI service in system AI settings, or configure a local model. Model weights are downloaded on demand. Please include the app version, macOS version, and steps to reproduce when reporting a problem in [Issues](https://github.com/MalcolmLu/med-research-workbench-downloads/issues).
