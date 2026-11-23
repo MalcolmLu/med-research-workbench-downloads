@@ -13,12 +13,14 @@
 - **写作和投稿。** 在文稿中管理引文、图表和修订，可导出 Word、对照学术写作风格，并在投稿前根据稿件和参考文献推荐期刊。
 - **保存课题。** 本地和 WebDAV 加密备份支持版本历史与课题恢复。界面支持中文和英文。
 
+独立云端向量 API 密钥默认保存在本机钥匙串或 Windows 凭据管理器。保存后重新打开应用，仍可使用所选向量连接。需要临时密钥时可选“仅本次运行”。
+
 ### 下载与安装
 
-**[下载 0.14.0 个人桌面预览版](https://github.com/MalcolmLu/med-research-workbench-downloads/releases/tag/v0.14.0)**
+**[下载 0.14.1 个人桌面预览版](https://github.com/MalcolmLu/med-research-workbench-downloads/releases/tag/v0.14.1)**
 
-- Apple 芯片 Mac（macOS 14 及以上）下载 `EvidenceWorkbench-0.14.0-26.zip`。用 `shasum -a 256 EvidenceWorkbench-0.14.0-26.zip` 核对 `SHA256SUMS.txt` 中该文件的值，解压并将应用拖到「应用程序」。
-- Windows x64 下载 `EvidenceWorkbench-0.14.0-Windows-x64.exe`。在 PowerShell 运行 `Get-FileHash .\EvidenceWorkbench-0.14.0-Windows-x64.exe -Algorithm SHA256`，与校验清单中的对应行核对。双击 EXE 打开独立窗口，首次使用需要 WebView2 Runtime。
+- Apple 芯片 Mac（macOS 14 及以上）下载 `EvidenceWorkbench-0.14.1-27.zip`。用 `shasum -a 256 EvidenceWorkbench-0.14.1-27.zip` 核对 `SHA256SUMS.txt` 中该文件的值，解压并将应用拖到「应用程序」。
+- Windows x64 下载 `EvidenceWorkbench-0.14.1-Windows-x64.exe`。在 PowerShell 运行 `Get-FileHash .\EvidenceWorkbench-0.14.1-Windows-x64.exe -Algorithm SHA256`，与校验清单中的对应行核对。双击 EXE 打开独立窗口，首次使用需要 WebView2 Runtime。
 - 升级前可先备份已有课题。Windows 包未签名，已在 Wine 中验证计算与包内服务，实体 Windows 11 的首次启动与账号登录仍待复测。
 
 > macOS 包使用本机签名，Apple 公证待完成。此前带下载隔离标记的副本在本机 Gatekeeper 检查中被拒绝，首次打开取决于系统和设备管理策略。校验通过后，可参阅 [Apple 的 Mac 应用打开说明](https://support.apple.com/zh-cn/102445) 了解系统提供的选项。
@@ -36,12 +38,14 @@ Evidence Workbench is a personal medical research app for macOS and Windows. Sta
 - **Write and prepare for submission.** Manage citations, figures, and revisions, export to Word, use writing style profiles, and get journal suggestions based on the manuscript and its references.
 - **Preserve projects.** Encrypted local and WebDAV backups retain project history and support restoration. The interface is available in English and Chinese.
 
+Standalone cloud embedding API keys are saved on this computer by default using macOS Keychain or Windows Credential Manager. Choose session-only storage when you need a temporary key.
+
 ### Download and install
 
-**[Download the 0.14.0 desktop preview](https://github.com/MalcolmLu/med-research-workbench-downloads/releases/tag/v0.14.0)**
+**[Download the 0.14.1 desktop preview](https://github.com/MalcolmLu/med-research-workbench-downloads/releases/tag/v0.14.1)**
 
-- On Apple silicon Macs running macOS 14 or later, download `EvidenceWorkbench-0.14.0-26.zip`. Compare `shasum -a 256 EvidenceWorkbench-0.14.0-26.zip` with the corresponding line in `SHA256SUMS.txt`. Unzip and drag the app into Applications.
-- On x64 Windows, download `EvidenceWorkbench-0.14.0-Windows-x64.exe`. Compare `Get-FileHash .\EvidenceWorkbench-0.14.0-Windows-x64.exe -Algorithm SHA256` with the corresponding checksum. Double-click the EXE to open the standalone application window. First launch requires WebView2 Runtime.
+- On Apple silicon Macs running macOS 14 or later, download `EvidenceWorkbench-0.14.1-27.zip`. Compare `shasum -a 256 EvidenceWorkbench-0.14.1-27.zip` with the corresponding line in `SHA256SUMS.txt`. Unzip and drag the app into Applications.
+- On x64 Windows, download `EvidenceWorkbench-0.14.1-Windows-x64.exe`. Compare `Get-FileHash .\EvidenceWorkbench-0.14.1-Windows-x64.exe -Algorithm SHA256` with the corresponding checksum. Double-click the EXE to open the standalone application window. First launch requires WebView2 Runtime.
 - Back up existing projects before upgrading. The Windows preview is unsigned. Calculation and service tests ran under Wine. First launch and account sign-in on a physical Windows 11 machine still need verification.
 
 > The macOS build uses an ad-hoc signature and is pending Apple notarization. Gatekeeper rejected the quarantined copy in a previous local preview test. First launch depends on macOS and device management policy. After verifying the download, see [Apple's guidance on opening Mac apps](https://support.apple.com/en-us/102445) for the options your Mac offers.
